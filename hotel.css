@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #0b1e3f;
+}
+
+header {
+  background-color: #0b1e3f;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 22px;
+  background-color: #dcb777;
+  padding: 10px 15px;
+  border-radius: 0 0 10px 10px;
+}
+
+nav a {
+  margin-left: 20px;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a.active {
+  text-decoration: underline;
+}
+
+.header {
+  background-color: #0b1e3f;
+  color: white;
+  padding: 60px 0;
+  text-align: center;
+  font-size: 32px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 10%;
+  flex-wrap: wrap;
+}
+
+.info {
+  flex: 1;
+  max-width: 45%;
+}
+
+.info h2 {
+  font-size: 24px;
+  color: #0b1e3f;
+}
+
+.form {
+  flex: 1;
+  max-width: 45%;
+}
+
+.form input,
+.form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #0b1e3f;
+  border-radius: 4px;
+}
+
+.form button {
+  background-color: #dcb777;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+}
+
+footer {
+  background-color: #0b1e3f;
+  color: white;
+  padding: 40px 10%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.left,.links, .social, .subscribe {
+  flex: 1 1 200px;
+  margin: 10px;
+}
+
+.links a,
+.social a {
+  display: block;
+  color: white;
+  margin-bottom: 8px;
+  text-decoration: none;
+  flex-direction: column;
+}
+
+.subscribe input {
+  padding: 8px;
+  width: 150px;
+  margin-right: 5px;
+}
+
+.subscribe button {
+  padding: 8px 10px;
+  background-color: #dcb777;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.msg{
+    height: 300px;
+}
